@@ -1,9 +1,10 @@
 # Sai Vamsi Puttu
-*An Aspiring Data Scientist* *Loves solving Math*
+*An Aspiring Data Scientist* 
+*Loves solving Math*
 
 # Education
-* Master of Technology (Artificial Intelligence), *YouTube University*, 2019-2022
-* Bachelor of Technology (Mechanical Engineering), *YouTube University*, 2013-2017
+* Master of Technology (Artificial Intelligence), *IIT Jodhpur*, 2019-2022
+* Bachelor of Technology (Mechanical Engineering), *SASTRA University*, 2013-2017
 
 # [Project 1: Chart-Image-Classification]()
 
