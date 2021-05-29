@@ -1,5 +1,5 @@
 # Sai Vamsi Puttu
-*An Aspiring Data Scientist * *Loves solvign Math*
+*An Aspiring Data Scientist* *Loves solving Math*
 
 # Education
 * Master of Technology (Artificial Intelligence), *YouTube University*, 2019-2022
