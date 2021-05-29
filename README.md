@@ -1,6 +1,5 @@
 # Sai Vamsi Puttu
-*An Aspiring Data Scientist* 
-*Loves solving Math*
+*An Aspiring Data Scientist* | *Loves solving Math*
 
 # Education
 * Master of Technology (Artificial Intelligence), *IIT Jodhpur*, 2019-Present
