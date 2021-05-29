@@ -12,7 +12,7 @@ This project predicts the type of chart given input as an Image
 * **Input:** Chart Images(Histograms,Bar Graphs, Pie Chart)
 * **Output:** Predicts type of Chart
 
-# [Project 2: Statistical Analysis of COVID19 in INDIA]
+# [Project 2: Statistical Analysis of COVID19 in INDIA]()
 
 This project showcases how well India is fighting againt COVID19
 * **Python libraries used:** Numpy, Pandas, MatPlotLib, 
