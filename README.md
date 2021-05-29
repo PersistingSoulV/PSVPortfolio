@@ -3,7 +3,7 @@
 *Loves solving Math*
 
 # Education
-* Master of Technology (Artificial Intelligence), *IIT Jodhpur*, 2019-2022
+* Master of Technology (Artificial Intelligence), *IIT Jodhpur*, 2019-Present
 * Bachelor of Technology (Mechanical Engineering), *SASTRA University*, 2013-2017
 
 # [Project 1: Chart-Image-Classification]()
