@@ -18,3 +18,6 @@ This project showcases how well India is fighting againt COVID19
 * **Python libraries used:** Numpy, Pandas, MatPlotLib, 
 * **Input:** Details of COVID19 Cases, COVID19 Testing, COVID19 Vaccination in INDIA
 * **Output:** Statistical insights and Inferences of INDIA against COVID19
+
+# Books Read:
+* Practical Statistics for Data Scientists, 2nd Edition by Peter Bruce, Andrew Bruce, Peter Gedeck.
