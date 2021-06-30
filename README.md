@@ -20,4 +20,4 @@ This project showcases how well India is fighting againt COVID19
 * **Output:** Statistical insights and Inferences of INDIA against COVID19
 
 # Books Read:
-* Practical Statistics for Data Scientists, 2nd Edition by Peter Bruce, Andrew Bruce, Peter Gedeck.
+* [Practical Statistics for Data Scientists, 2nd Edition by Peter Bruce, Andrew Bruce, Peter Gedeck.](https://learning.oreilly.com/library/view/practical-statistics-for/9781492072935/)
