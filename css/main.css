@@ -3,27 +3,84 @@
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
+
+  /*-------- Colors ----------*/
+  /*change favourite color */
+  --hue-color: 250; /*Purple - 250,Green - 142,Blue - 230,Pink - 340 */
   --font-semi: 600;
+
+  /* HSL color mode */
+  --first-color: hsl(var(--hue-color), 69%, 61%);
+  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+  --title-color: hsl(var(--hue-color), 8%, 15%);
+  --text-color: hsl(var(--hue-color), 8%, 45%);
+  --input-color: hsl(var(--hue-color), 70%, 99%);
+  --body-color: hsl(var(--hue-color),60%,99%);
+  --container-color: #FFF;
+
+  /*======= Font and Typography =====*/
+ --body-font: 'Poppins', sans-serif;
+
+ /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px... */
+ --big-font-sie: 2rem;
+ --h1-font-size: 1.5rem;
+ --h2-font-size: 1.25rem;
+ --h3-font-size: 1.125rem;
+ --normal-font-size: 0.938rem;
+ --small-font-size: 0.813rem;
+ --smaller-font-size: .75rem;
+
+ /*===== Font Weight ======*/
+ --font-medium: 500;
+ --font-semi-bold: 600;
+
+/*========== Margins Bottom ==========*/
+ --mb-0-25: .25rem;
+ --mb-0-5: .5rem;
+ --mb-0-75: .75rem;
+ --mb-1: 1rem;
+ --mb-1-5: 1.5rem;
+ --mb-2: 2rem;
+ --mb-2-5: 2.5rem;
+ --mb-3: 3rem;
+
+/*========= z index ============*/
+--z-tooltip: 10;
+--z-fixed: 100;
+--z-modal: 100;
+
+
 }
+
 
 /*===== Colores =====*/
+/*
 :root{
-  --first-color: #4070F4;
-  --second-color: #0E2431;
-}
+  --first-color: hsl(224, 89%, 60%);
+  --second-color: hsl(202, 56%, 12%);
+}*/
 
 /*===== Fuente y tipografia =====*/
+/*
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
-}
+}*/
+
+/* Font Size for large devices */
 @media screen and (min-width: 768px){
   :root{
-    --big-font-size: 3.5rem;
-    --h2-font-size: 2rem;
+    --big-font-size: 3rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
     --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
   }
 }
 
@@ -45,45 +102,79 @@
   --z-fixed: 100;
 }
 
-/*===== BASE =====*/
-*,::before,::after{
+/*==================== BASE ===============*/
+/*,::before,::after{*/
+*{
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
+
+
 html{
   scroll-behavior: smooth;
 }
+
+
 body{
-  margin: var(--header-height) 0 0 0;
+  margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--second-color);
+  background-color: var(--body-color);
+  color: var(--text-color);
 }
-h1,h2,p{
-  margin: 0;
+
+
+h1,h2,h3,h4{
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
 }
+
+
 ul{
-  margin: 0;
-  padding: 0;
+  /*margin: 0;
+  padding: 0;*/
   list-style: none;
 }
+
+
 a{
   text-decoration: none;
 }
+
+
 img{
   max-width: 100%;
   height: auto;
-  display: block;
+  /*display: block;*/
 }
 
-/*===== CLASS CSS ===== */
-.section-title{
-  position: relative;
-  font-size: var(--h2-font-size);
-  color: var(--first-color);
+/*================== Reusable CSS Classes ===============*/
+.section{
+padding: 2rem 0 4rem;
+}
+
+.section__title{
+  /*position: relative;*/
+  font-size: var(--h1-font-size);
+  /*color: var(--first-color);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
+  text-align: center;*/
+}
+
+.section__subtitle{
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-3);
+}
+
+.section__title,
+.section__subtitle{
   text-align: center;
 }
+
+
 .section-title::after{
   position: absolute;
   content: "";
@@ -96,11 +187,25 @@ img{
   background-color: var(--first-color);
 }
 .section{
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding: 2rem 0 4rem;
+  /*padding-top: 3rem;*/
+  /*padding-bottom: 2rem;*/
 }
 
-/*===== LAYOUT =====*/
+/*===================== LAYOUT ===========================*/
+
+.container{
+  max-width: 768px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+.grid{
+  display: grid;
+  gap: 1.5rem;
+}
+
+
 .bd-grid{
   max-width: 1024px;
   display: grid;
@@ -122,22 +227,28 @@ img{
 
 /*===== NAV =====*/
 .nav{
+  max-width: 968px;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .nav__menu{
     position: fixed;
+    /*bottom = -100%, disppears menu section */
+    bottom: 0;
+    left: 0;
+    width: 100%;
     top: var(--header-height);
     right: -100%;
-    width: 80%;
     height: 100%;
-    padding: 2rem;
-    background-color: var(--second-color);
-    transition: .5s;
+    padding: 2rem 1.5rem 4rem;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 1.5rem 1.5rem;
+    background-color: var(--body-color);
+    transition: .3s;
   }
 }
 .nav__item{
@@ -159,13 +270,42 @@ img{
   top: 2rem;
   background-color: var(--first-color);
 }
-.nav__logo{
-  color: var(--second-color);
-}
+.nav__logo,
 .nav__toggle{
-  color: var(--second-color);
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.nav__logo:hover{
+  color: var(--first-color);
+}
+
+.nav__toggle:hover{
+  color: var(--first-color);
+}
+
+.nav__icon{
+  font-size: 1.2rem;
+}
+
+.nav__close{
+  position: absolute;
+  right: 1.3rem;
+  bottom: 0.5rem;
   font-size: 1.5rem;
   cursor: pointer;
+  color: var(--first-color);
+}
+
+.nav__close:hover{
+  color: var(--first-color-alt);
+}
+
+
+.show-menu{
+  bottom: 0;
 }
 
 /*Active menu*/
@@ -383,6 +523,8 @@ img{
     height: calc(var(--header-height) + 1rem);
   }
   .nav__list{
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
     display: flex;
     padding-top: 0;
   }
@@ -394,7 +536,16 @@ img{
     display: none;
   }
   .nav__link{
-    color: var(--second-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+  }
+
+  .nav_link:hover{
+    color: var(--first-color);
   }
 
   .home{
@@ -447,4 +598,13 @@ img{
   .home__img{
     right: 10%;
   }
+}
+
+.header{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background-color: var(--body-color);
 }
