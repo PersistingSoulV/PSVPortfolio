@@ -14,7 +14,7 @@
         <title>Portfolio - Sai Vamsi Puttu</title>
     </head>
     <body>
-        <!--===== HEADER =====-->
+        <!--================================ HEADER ======================================-->
         <header class="header", id="header">
             <nav class="nav container">
                 <a href="#" class="nav__logo">Sai Vamsi Puttu</a>
@@ -61,7 +61,7 @@
         </header>
 
         <main class="main">
-            <!--===== HOME =====-->
+            <!--=========================================== HOME =================================================-->
             <section class="home section" id="home">
                 <div class="home container container grid">
                     <div class="home__content grid">
@@ -120,7 +120,7 @@
                 </div>
             </section>
 
-            <!--===== ABOUT =====-->
+            <!--========================================= ABOUT ==================================================-->
             <section class="about section" id="about">
                 <h2 class="section__title">About Me</h2>
                 <span class="section__subtitle">My Introduction</span>
@@ -157,99 +157,471 @@
                 </div>
             </section>
 
-            <!--===== SKILLS =====-->
+            <!--================================================= SKILLS =================================================-->
             <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+                <h2 class="section__title">Skills</h2>
+                <span class="section_subtitle">My Technical Level</span>
 
-                <div class="skills__container bd-grid">          
+                <div class="skills__container container grid">
                     <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">Data Science</span>
+                        <!--================================================= SKILLS 1=================================================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Guidewire Developer</h1>
+                                    <span class="skills__sbutitle">2 years of experience</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+
                             </div>
-                            <!---
-                            <div class="skills__bar skills__html">
+
+                            <div class="skills__list grid">
+
+
+                                <div class="skills_data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">GOSU Programming</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills_percentage skills_gosu"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">SQL</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills_percentage skills_sql"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Premium Unbalance Analysis</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills_percentage skills_pua"></span>
+                                    </div>
+                                </div>
+
                             </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>-->
                         </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">Machine Learning</span>
+                        <!--================================================= SKILLS 2=================================================-->
+                        <div class="skills__content skills__close">
+
+                            <div class="skills__header">
+                                <i class="uil uil-robot skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__titles">ML Engineer</h1>
+                                    <span class="skills__sbutitle">2 years of experience</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
                             </div>
-                            <!--
-                            <div class="skills__bar skills__css">
-                                
+
+                            <div class="skills__list grid">
+
+                                <div class="skills_data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills_percentage skills_python"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">SQL</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills_percentage skills_sql"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">AWS Sagemaker</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills_percentage skills_aws"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Exploratory Data Analysis</h3>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills_percentage skills_eda"></span>
+                                    </div>
+                                </div>
+
                             </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </section>
+            <!--====================================== Qualification ====================================-->
+
+            <section class="qualification section">
+
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My Personal Journey</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__tabs">
+
+                            <div class="qualification__button button--flex qualification__active" data-target="#education">
+                                <i class="uil uil-university qualification__icon"></i>
+                                Education
+                            </div>
+
+                            <div class="qualification__button button--flex" data-target="#work">
+                                <i class="uil uil-hard-hat qualification__icon"></i>
+                                Work
+                            </div>
+
+
+                        </div>
+
+                        <div class="qualification__sections">
+                                <!--====================================== Qualification Content 1====================================-->
+                            <div class="qualification__content qualification__active" data-content id="education">
+
+                                <!--====================================== Qualification 1====================================-->
+                                <div class="qualification__data">
+                                    <div>
+                                    <h3 class="qualification__title">M.Tech in Aritificial Intelligence</h3>
+                                    <span class="qualification__subtitle">IIT Jodhpur</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-schedule"></i>
+                                        2019-2022
+                                    </div>
+                                    </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                </div>
+
+                                <!--====================================== Qualification 2====================================-->
+                                <div class="qualification__data">
+
+                                    <div></div>
+
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div>
+
+                                    <div>
+                                        <h3 class="qualification__title">B.Tech Mechanical Engineering</h3>
+                                        <span class="qualification__subtitle">SASTRA University</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-schedule"></i>
+                                        2013-2017
+                                    </div>
+                                    </div>
+
+
+
+                                </div>
+
+                            <!--====================================== Qualification 3====================================-->
+                                <div class="qualification__data">
+                                    
+                                    <div>
+                                        <h3 class="qualification__title">Board of Intermediate Education,AP</h3>
+                                        <span class="qualification__subtitle">Narayana Junior College</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-schedule"></i>
+                                        2011-2013
+                                    </div>
+                                    </div>
+
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div>
+
+                                </div>
+
+                            <!--====================================== Qualification 4====================================-->
+                                <div class="qualification__data">
+                                    
+                                    <div></div>
+
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <!-- <span class="qualification__line"></span> -->
+                                    </div>
+
+                                    <div>
+                                        <h3 class="qualification__title">Board of Secondary Education</h3>
+                                        <span class="qualification__subtitle">Viswabharathi E.M High School</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-schedule"></i>
+                                        Year of Passing - 2011
+                                    </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                                <!--====================================== Qualification Content 2====================================-->
+                            <div class="qualification__content" data-content id="work">
+
+                            <!--====================================== Qualification 1====================================-->
+                            <div class="qualification__data">
+                                <div>
+                                <h3 class="qualification__title">ML Engineer</h3>
+                                <span class="qualification__subtitle">Tata Consultancy Services</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-schedule"></i>
+                                    2019-Present
+                                </div>
+                                </div>
+
                             <div>
-                                <span class="skills__percentage">85%</span>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            </div>
+
+                            <!--====================================== Qualification 2====================================-->
+                            <div class="qualification__data">
+
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Guidewire Developer</h3>
+                                    <span class="qualification__subtitle">Tata Consultancy Services</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-schedule"></i>
+                                    2017-2019
+                                </div>
+                                </div>
+
+
+
+                            </div>
+
+                        <!--====================================== Qualification 3====================================-->
+                            <!-- <div class="qualification__data">
+                                
+                                <div>
+                                    <h3 class="qualification__title">Board of Intermediate Education,AP</h3>
+                                    <span class="qualification__subtitle">Narayana Junior College</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-schedule"></i>
+                                    2011-2013
+                                </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
                             </div> -->
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">Python</span>
-                            </div>
-                            <!--
-                            <div class="skills__bar skills__js">
+
+                        <!--====================================== Qualification 4====================================-->
+                            <!-- <div class="qualification__data">
                                 
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Board of Secondary Education</h3>
+                                    <span class="qualification__subtitle">Viswabharathi E.M High School</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-schedule"></i>
+                                    Year of Passing - 2011
+                                </div>
+                                </div>
+
                             </div> -->
+
+                            </div>
+
                         </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">Deep Learning</span>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!--====================================== SERVICES ====================================-->
+
+            <section class="services section" id="services">
+                <h2 class="section__title">Services</h2>
+                <span class="section__subtitle">What I offer</span>
+
+                <div class="services__container container grid">
+                    <!--====================================== SERVICES 1====================================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-web-grid services__icon"></i>
+                            <h3 class="services__title">ML Engineer</h3>
+                        </div>
+    
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+    
+                        <div class="services__modal">
+                            <div class="services--modal-content">
+                                <h4 class="services__modal-title">ML Engineer</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+    
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I do EDA</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I do Data Cleaning</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I do ML Model Build</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I deploy ML Models</p>
+                                    </li>
+                                </ul>
                             </div>
-                            <!--
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>-->
                         </div>
                     </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+
+                    <!--====================================== SERVICES 2====================================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-arrow services__icon"></i>
+                            <h3 class="services__title">Guidewire Developer</h3>
+                        </div>
+    
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+    
+                        <div class="services__modal">
+                            <div class="services--modal-content">
+                                <h4 class="services__modal-title">ML Engineer</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+    
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I do EDA</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I do Data Cleaning</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I do ML Model Build</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I deploy ML Models</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--====================================== PORTFOLIO ==============================================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Most recent work</span>
+
+                <div class="portfolio__container container">
+                    <div>
+                        <!--====================================== PORTFOLIO 1==============================================-->
+                        <div class="portfolio__content grid">
+                            <img src="img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Analysis of COVID19 in INDIA</h3>
+                                <p class="portfolio__description">COVID cases,vaccination,positivity rate and Analysis
+                                    of how well vaccination is effective.
+                                </p>
+                                <a href="" class="button button--flex button-small portfolio__button">
+                                    View
+                                    <i class="uil uil-enter button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--====================================== PORTFOLIO 2==============================================-->
+                        <div class="portfolio__content grid">
+                            <img src="img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Analysis of COVID19 in INDIA</h3>
+                                <p class="portfolio__description">COVID cases,vaccination,positivity rate and Analysis
+                                    of how well vaccination is effective.
+                                </p>
+                                <a href="" class="button button--flex button-small portfolio__button">
+                                    View
+                                    <i class="uil uil-enter button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--====================================== PORTFOLIO 2==============================================-->
+                        <div class="portfolio__content grid">
+                            <img src="img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Analysis of COVID19 in INDIA</h3>
+                                <p class="portfolio__description">COVID cases,vaccination,positivity rate and Analysis
+                                    of how well vaccination is effective.
+                                </p>
+                                <a href="" class="button button--flex button-small portfolio__button">
+                                    View
+                                    <i class="uil uil-enter button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
 
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </div>
-                </div>
-            </section>
 
-            <!--===== CONTACT =====-->
+            <!--================================ CONTACT =================================-->
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
 
