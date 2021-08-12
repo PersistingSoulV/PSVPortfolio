@@ -243,9 +243,12 @@ img{
 }
 
 .about__resume{
-  display: var(--dark-color);
-  font-size: var(--big-font-size);
-  text-align: center;
+  display: inline-block;
+  background-color: var(--dark-color);
+  color: #5361FF;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
 }
 
 .about__social-icon{
