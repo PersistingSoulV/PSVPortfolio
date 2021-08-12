@@ -241,6 +241,13 @@ img{
     display: block;
     margin-bottom: var(--mb-4);
 }
+
+.about__resume{
+  display: var(--dark-color);
+  font-size: var(--big-font-size);
+  text-align: center;
+}
+
 .about__social-icon{
     font-size: 1.4rem;
     margin: 0 var(--mb-1);
@@ -464,7 +471,7 @@ img{
     .contact__info{
       justify-items: center;
     }
-    
+
     .contact__form{
         width: 380px;
     }
