@@ -244,7 +244,7 @@ img{
 
 .about__resume{
   display: inline-block;
-  background-color: var(--dark-color);
+  background-color: var(--white-color);
   color: #5361FF;
   padding: 1rem;
   border-radius: .5rem;
