@@ -7,12 +7,23 @@
     --font-medium: 500;
 }
 
+
+
 /*===== Colores =====*/
 :root{
     --first-color: #5361FF;
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
+}
+
+/* ============================== Dark Theme ============================= */
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+    --heading-color: #818cab;
 }
 
 /*===== Fuente y tipografia =====*/
