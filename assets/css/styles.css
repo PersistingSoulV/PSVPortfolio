@@ -19,11 +19,11 @@
 
 /* ============================== Dark Theme ============================= */
 [data-theme="dark"] {
-    --primary-color: #9A97F3;
-    --secondary-color: #818cab;
-    --font-color: #e1e1ff;
-    --bg-color: #161625;
-    --heading-color: #818cab;
+    /* --primary-color: #9A97F3; */
+    /* --secondary-color: #818cab; */
+    --text-color: #e1e1ff;
+    --white-color: #161625;
+    /* --heading-color: #818cab; */
 }
 
 /*===== Fuente y tipografia =====*/
@@ -186,7 +186,14 @@ img{
     background-color: var(--first-color);
 }
 
-/*===== HOME =====*/
+/*============================== Dark Mode ============================= */
+.dm{
+    position: relative;
+    background-color: var(--first-color);
+    overflow: hidden;
+}
+
+/*====================================== HOME ==============================*/
 .home{
     position: relative;
     background-color: var(--first-color);
