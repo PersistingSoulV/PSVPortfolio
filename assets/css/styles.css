@@ -240,7 +240,7 @@ img{
     padding-top: 1rem;
     width: 120px;
     height: 120px;
-    background-color: transparent;
+    background-color: var(--white-color);
     border-radius: 50%;
     overflow: hidden;
 }
