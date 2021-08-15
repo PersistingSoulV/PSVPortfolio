@@ -193,6 +193,7 @@ img{
     overflow: hidden;
 }
 
+
 /*====================================== HOME ==============================*/
 .home{
     position: relative;
@@ -229,6 +230,10 @@ img{
 }
 
 /* ===== ABOUT =====*/
+
+.about{
+    background-color: var(--first-color);
+}
 .about__container{
     justify-items: center;
     row-gap: 2rem;
@@ -278,6 +283,11 @@ img{
 }
 
 /* ===== SKILLS =====*/
+
+.skills{
+    background-color: var(--first-color);
+}
+
 .skills__container{
     row-gap: 2rem;
 }
@@ -339,6 +349,9 @@ img{
 }
 
 /* ===== CONTACT =====*/
+.contact{
+    background-color: var(--first-color);
+}
 .contact__container{
     row-gap: 2rem;
 }
@@ -379,7 +392,7 @@ img{
 
 /* ===== FOOTER=====*/
 .footer{
-    background-color: var(--dark-color);
+    background-color: var(--first-color);
 }
 .footer__container{
     row-gap: 2rem;
