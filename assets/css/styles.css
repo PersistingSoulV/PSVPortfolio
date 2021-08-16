@@ -193,6 +193,10 @@ img{
     overflow: hidden;
 }
 
+.theme-switch-wrapper{
+    color: var(--white-color);
+}
+
 
 /*====================================== HOME ==============================*/
 .home{
