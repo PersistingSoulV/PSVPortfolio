@@ -77,6 +77,16 @@ sr.reveal('.contact__button', {delay: 600})
 
 /* ================================= Dark Mode ===================================== */
 
+/* ======== Change text to Disable Dark mode after user ticks Checkbox ============== */
+function changeText(id){
+
+    if ($('#'+id).is(':checked')) {
+      $('#'+id +"+span").html('Disable Dark Mode');
+    }else{
+      $('#'+id+ "+span").html('Enable Dark Mode');
+    }
+  }
+
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 const currentTheme = localStorage.getItem('theme');
 
