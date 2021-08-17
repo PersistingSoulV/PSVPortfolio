@@ -189,15 +189,23 @@ img{
 /*============================== Dark Mode ============================= */
 /*Simple css to style it like a toggle switch*/
 .theme-switch-wrapper {
-    position: relative;
     background-color: var(--white-color);
     overflow: hidden;
-  
+    position: fixed;
+    top: var(--header-height);
+    right: -100%;
+    width: 80%;
+    height: 100%;
+    padding: 2rem;
+    background-color: rgba(255,255,255,.3);
+    transition: .5s;
+    backdrop-filter: blur(10px);
   }
 
 .em {
     margin-left: 10px;
     font-size: 1rem;
+    color: var(--white-color);
   }
 
 .theme-switch {
