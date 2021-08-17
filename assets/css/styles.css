@@ -209,10 +209,17 @@ img{
   }
 
 .theme-switch {
-    display: inline-block;
-    height: 34px;
-    position: relative;
-    width: 60px;
+    background-color: var(--first-color);
+    overflow: hidden;
+    position: fixed;
+    top: var(--header-height);
+    right: -100%;
+    width: 80%;
+    height: 100%;
+    padding: 2rem;
+    background-color: rgba(255,255,255,.3);
+    transition: .5s;
+    backdrop-filter: blur(10px);
   }
   
 .theme-switch input {
