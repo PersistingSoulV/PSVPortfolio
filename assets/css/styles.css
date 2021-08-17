@@ -189,7 +189,7 @@ img{
 /*============================== Dark Mode ============================= */
 /*Simple css to style it like a toggle switch*/
 .theme-switch-wrapper {
-    background-color: var(--white-color);
+    background-color: var(--first-color);
     overflow: hidden;
     position: fixed;
     top: var(--header-height);
