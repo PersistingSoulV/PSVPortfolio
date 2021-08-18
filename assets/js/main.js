@@ -81,9 +81,9 @@ sr.reveal('.contact__button', {delay: 600})
 function changeText(id){
 
     if ($('#'+id).is(':checked')) {
-      $('#'+id +"+span").html('Disable Dark Mode');
+      $('#'+id +"+em").html('Disable Dark Mode');
     }else{
-      $('#'+id+ "+span").html('Enable Dark Mode');
+      $('#'+id+ "+em").html('Enable Dark Mode');
     }
   }
 
