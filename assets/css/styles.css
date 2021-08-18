@@ -11,7 +11,7 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #53f4ff;
+    --first-color: #1fdae0;
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -234,7 +234,7 @@ img{
   }
   
 input:checked + .slider {
-    background-color: #66bb6a;
+    background-color: #000000;
   }
   
 input:checked + .slider:before {
