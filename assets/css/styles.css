@@ -455,13 +455,13 @@ input:checked + .slider:before {
   margin: 5px;
   width: 20px;
   height: 20px;
-  color: #333;
+  color: var(--white-color);
   border-radius: 50%;
-  background-color: #dfd6ce;
+  background-color: var(--first-color);
 }
 
 .dots-container .dot.active {
-  border: 2px solid green;
+  border: 2px solid white;
 }
 
 * {
