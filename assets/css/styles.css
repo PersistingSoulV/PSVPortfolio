@@ -412,6 +412,7 @@ input:checked + .slider:before {
 .slide-container {
     justify-items: center;
     align-items: center;
+    position: middle;
 }
 
 .slide-container .prev,
