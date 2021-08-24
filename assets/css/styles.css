@@ -408,10 +408,15 @@ input:checked + .slider:before {
 .bookread{
     background-color: var(--white-color);
 }
+
+.slide-container {
+    justify-items: center;
+}
+
 .slide-container .prev,
 .slide-container .next {
   cursor: pointer;
-  position: absolute;
+  position: relative;
   top: 50%;
   width: auto;
   margin-top: -22px;
